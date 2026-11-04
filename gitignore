@@ -1,0 +1,58 @@
+# Python compiled files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments / Conda
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Streamlit local settings and secrets
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+*.swp
+*.swo
+
+# Locally generated data and reports (adjust if you intentionally publish examples)
+data/raw/
+data/private/
+outputs/
+reports/
+
+# Model checkpoints / other exported artifacts
+models/checkpoints/
+*.joblib
+*.onnx
+
+# IMPORTANT: Do not ignore placement_model.pkl or scaler.pkl.
+# Streamlit Community Cloud needs these two trusted artifacts in the repo.
