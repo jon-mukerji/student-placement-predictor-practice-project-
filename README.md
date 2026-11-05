@@ -19,6 +19,7 @@
 > **Project status:** The application code is ready. The trained model (`placement_model.pkl`) and fitted scaler (`scaler.pkl`) must be exported from your own notebook. The public deployment URL and evaluation results are not yet provided.
 
 
+
 ## 🌐 Live Application
 
 Try the Student Placement Predictor online!
@@ -27,6 +28,7 @@ Try the Student Placement Predictor online!
 
 Enter your CGPA and IQ to receive a prediction
 from the trained Logistic Regression model.
+
 
 
 ## ✨ Features
